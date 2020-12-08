@@ -1,0 +1,13 @@
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.exe
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.deps.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.runtimeconfig.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.runtimeconfig.dev.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.dll
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\bin\Debug\netcoreapp3.1\Almost_Sorted.pdb
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.csprojAssemblyReference.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.AssemblyInfoInputs.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.AssemblyInfo.cs
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.csproj.CoreCompileInputs.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.dll
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.pdb
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\medium\Almost_Sorted\obj\Debug\netcoreapp3.1\Almost_Sorted.genruntimeconfig.cache
