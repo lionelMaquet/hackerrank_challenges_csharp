@@ -34,10 +34,6 @@ class Solution
             Console.WriteLine("Yes");
         }
 
-
-
-
-
     }
 
     static bool IsArrayAscending(int[] arr)
@@ -56,30 +52,25 @@ class Solution
         return true;
     }
 
-    static bool CheckForPotentialSwap(int[] MyArray)
+    static int GetProblemNumberIndex(int[] arr)
     {
-        int[] arr = new int[MyArray.Length];
-        MyArray.CopyTo(arr, 0);
-
-        int SmallerFollowingIndex = 0;
-        int ProblemNumberIndex = 0;
-        bool IsProblemNumberSet = false;
-
-
         for (int i = 0; i < arr.Length - 1; i++)
         {
 
             if (arr[i] > arr[i + 1])
             {
-                ProblemNumberIndex = i;
-                IsProblemNumberSet = true;
-                break;
+                return i;
+                
             }
-
         }
 
+        return 0;
+    }
 
+    static int GetSmallerFollowingIndex(int[] arr, int ProblemNumberIndex)
+    {
         int Smallest = arr[ProblemNumberIndex];
+        int SmallerFollowingIndex = 0;
 
         for (int i = ProblemNumberIndex + 1; i < arr.Length; i++)
         {
@@ -90,12 +81,21 @@ class Solution
             }
         }
 
+        return SmallerFollowingIndex;
+    }
 
+    static bool CheckForPotentialSwap(int[] MyArray)
+    {
+        int[] arr = new int[MyArray.Length];
+        MyArray.CopyTo(arr, 0); // c# passes arrays by reference, we only want values 
 
+        int ProblemNumberIndex = GetProblemNumberIndex(arr);
+        int SmallerFollowingIndex = GetSmallerFollowingIndex(arr, ProblemNumberIndex);
+
+        // Swap both numbers
         int temp = arr[ProblemNumberIndex];
         arr[ProblemNumberIndex] = arr[SmallerFollowingIndex];
         arr[SmallerFollowingIndex] = temp;
-
 
         if (IsArrayAscending(arr))
         {
@@ -107,25 +107,23 @@ class Solution
 
     }
 
-    static bool CheckForPotentialReverse(int[] MyArray)
+    static int GetReverseStartIndex(int[] arr)
     {
-
-        int[] arr = new int[MyArray.Length];
-        MyArray.CopyTo(arr, 0);
-
-        int ReverseStartIndex = 0;
-        int ReverseDuration = 1;
-
         for (int i = 0; i < arr.Length; i++)
         {
             if (arr[i] > arr[i + 1])
             {
-                ReverseStartIndex = i;
-                break;
+                return i;
             }
         }
 
-        for (int i = ReverseStartIndex + 1; i < arr.Length; i++)
+        return 0;
+    }
+
+    static int GetReverseDuration(int[] arr, int StartIndex)
+    {
+        int ReverseDuration = 1;
+        for (int i = StartIndex + 1; i < arr.Length; i++)
         {
             if (arr[i] < arr[i - 1])
             {
@@ -136,20 +134,18 @@ class Solution
                 break;
             }
         }
+        return ReverseDuration;
+    }
 
-        // reverse from start to end 
+    static bool CheckForPotentialReverse(int[] MyArray)
+    {
 
-        int[] ReversedSub = new int[ReverseDuration];
-        for (int i = 0; i < ReverseDuration; i++)
-        {
-            ReversedSub[ReversedSub.Length - (1 + i)] = arr[ReverseStartIndex + i];
-        }
+        int[] arr = new int[MyArray.Length];
+        MyArray.CopyTo(arr, 0);
 
-        for (int i = 0; i < ReverseDuration; i++)
-        {
-            arr[ReverseStartIndex + i] = ReversedSub[i];
-        }
-
+        int ReverseStartIndex = GetReverseStartIndex(arr);
+        int ReverseDuration = GetReverseDuration(arr, ReverseStartIndex);
+        Array.Reverse(arr, ReverseStartIndex, ReverseDuration);
 
         if (IsArrayAscending(arr))
         {
