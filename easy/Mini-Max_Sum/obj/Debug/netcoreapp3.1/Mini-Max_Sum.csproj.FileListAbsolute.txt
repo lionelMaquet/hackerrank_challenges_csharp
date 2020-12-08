@@ -1,0 +1,13 @@
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.exe
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.deps.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.runtimeconfig.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.runtimeconfig.dev.json
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.dll
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\bin\Debug\netcoreapp3.1\Mini-Max_Sum.pdb
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.csprojAssemblyReference.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.AssemblyInfoInputs.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.AssemblyInfo.cs
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.csproj.CoreCompileInputs.cache
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.dll
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.pdb
+C:\Users\lione\Desktop\Side Projects\hackerrank_csharp\easy\Mini-Max_Sum\obj\Debug\netcoreapp3.1\Mini-Max_Sum.genruntimeconfig.cache

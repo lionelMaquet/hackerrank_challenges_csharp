@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rNu9DZTDC1guYDFEB56oMrg0TP3IyFylIr3ezEwj4a0LIY+/jzD6X6dTGKN72D240lNq5PEC4ksSeFo7Us7ILA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lione\\Desktop\\Side Projects\\hackerrank_csharp\\easy\\Mini-Max_Sum\\Mini-Max_Sum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lione\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "C:\\Users\\lione\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.7\\microsoft.netcore.app.host.win-x64.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
